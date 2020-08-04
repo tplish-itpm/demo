@@ -4,9 +4,12 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-contrib/sessions/cookie"
 	"github.com/gin-gonic/gin"
+	"github.com/tplish-itpm/demo/models"
 )
 
-func InitRouter() {
+func InitRouter() *gin.Engine {
+	models.InitDB()
+
 	r := gin.Default()
 
 	store := cookie.NewStore([]byte("secret"))
@@ -15,5 +18,5 @@ func InitRouter() {
 	InitUserRouter(r)
 	InitPageRouter(r)
 
-	_ = r.Run(":7777")
+	return r
 }

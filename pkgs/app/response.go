@@ -2,7 +2,7 @@ package app
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/tplish-itpm/demo/pkg/e"
+	"github.com/tplish-itpm/demo/pkgs/e"
 	"net/http"
 )
 

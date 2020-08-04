@@ -2,7 +2,7 @@ package models
 
 import (
 	"github.com/jinzhu/gorm"
-	"github.com/tplish-itpm/demo/pkg/e"
+	"github.com/tplish-itpm/demo/pkgs/e"
 )
 
 type User struct {

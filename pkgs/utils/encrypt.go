@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/tplish-itpm/demo/pkg/e"
+	"github.com/tplish-itpm/demo/pkgs/e"
 	"golang.org/x/crypto/bcrypt"
 )
 

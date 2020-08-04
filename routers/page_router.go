@@ -4,8 +4,8 @@ import (
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
 	"github.com/tplish-itpm/demo/models"
-	"github.com/tplish-itpm/demo/pkg/app"
-	"github.com/tplish-itpm/demo/pkg/e"
+	"github.com/tplish-itpm/demo/pkgs/app"
+	"github.com/tplish-itpm/demo/pkgs/e"
 )
 
 func InitPageRouter(r *gin.Engine) {

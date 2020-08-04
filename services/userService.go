@@ -2,8 +2,8 @@ package services
 
 import (
 	"github.com/tplish-itpm/demo/models"
-	"github.com/tplish-itpm/demo/pkg/e"
-	"github.com/tplish-itpm/demo/pkg/utils"
+	"github.com/tplish-itpm/demo/pkgs/e"
+	"github.com/tplish-itpm/demo/pkgs/utils"
 )
 
 func Register(user *models.User) e.Error {
