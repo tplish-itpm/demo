@@ -3,6 +3,8 @@
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/gorm.io/gorm?tab=doc)
 
+Sprint过程展示：https://tplish-itpm.github.io/demo/
+
 ## Table of Contents
 
 - [Background](#background)
@@ -30,7 +32,7 @@ go run main.go
 
 ## Contributing
 
-疫情在家期间，为了避免耽误其他同学进度，本次Demo由个人分饰多角完成。具体细节将在DDL前全部补充。
+疫情在家期间，为了避免耽误其他同学进度，本次Demo由个人分饰多角完成。
 
 ## License
 
