@@ -14,6 +14,10 @@ Sprint过程展示：https://tplish-itpm.github.io/demo/
 - [Contributing](#contributing)
 - [License](#license)
 
+## Background
+
+这是一个Sprint的Demo，开发一个简易的登录注册认证原型，在这过程中学习IT项目管理知识。
+
 ## Install
 
 ```sh
@@ -36,7 +40,7 @@ go run main.go
 
 ## License
 
-[MIT](LICENSE) © Richard Littauer
+[MIT](LICENSE) © tplish-itpm
 
 
 
